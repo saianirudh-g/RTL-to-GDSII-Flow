@@ -105,27 +105,39 @@ Revised: DFT netlist (`counter_netlist_dft.v`)
 - **Final Result: PASS**
 
 ---
+# VLSI Physical Design Flow
 
-# 📁 Repository Structure (Recommended)
-├── rtl/
-│   ├── counter.v
-│   └── counter_test.v
-├── simulation/
-│   ├── run.sh
-│   └── waves/
-├── synthesis/
-│   ├── counter_netlist.v
-│   ├── scripts/
-│   └── reports/
-├── dft/
-│   ├── counter_netlist_dft.v
-│   ├── counter_scanDEF.scandef
-│   └── dft_reports/
-├── lec/
-│   ├── lec_script.tcl
-│   └── lec_report.txt
+This repository contains the complete Physical Design flow from RTL to GDS stream-out.
+
+## Directory Structure
+
+```bash
+├── RTL/
+│   ├── rtl.png
+│   └── netlist.sp
+│
+├── Synthesis/
+│   └── synthesis.png
+│
+├── Synthesis DFT/
+│   └── dft.png
+│
+├── Floor Plan/
+│   └── floor.png
+│
+├── Power Plan/
+│   └── power.png
+│
+├── Placement/
+│   └── placement.png
+│
+├── CTS & Routing/
+│   └── cts.png
+│
+├── GDS Stream file/
+│   └── gds.png
+│
 └── README.md
-
 
 ---
 # ✅ Conclusion
