@@ -114,10 +114,13 @@ This repository contains the complete Physical Design flow from RTL to GDS strea
 ```bash
 ├── RTL/
 │   ├── rtl.png
-│   └── netlist.sp
+│   └── counter.v
+|   └── counter_test.v
 │
 ├── Synthesis/
 │   └── synthesis.png
+|   └── counter.v
+|   └── counter_test.v
 │
 ├── Synthesis DFT/
 │   └── dft.png
