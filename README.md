@@ -111,23 +111,21 @@ Revised: DFT netlist (`counter_netlist_dft.v`)
 │   ├── counter.v
 │   └── counter_test.v
 ├── simulation/
-│   ├── waves/
-│   └── run_logs/
+│   ├── run.sh
+│   └── waves/
 ├── synthesis/
 │   ├── counter_netlist.v
-│   ├── reports/
-│   │   ├── timing.rpt
-│   │   ├── area.rpt
-│   │   ├── power.rpt
-│   │   └── qos.rpt
+│   ├── scripts/
+│   └── reports/
 ├── dft/
 │   ├── counter_netlist_dft.v
 │   ├── counter_scanDEF.scandef
 │   └── dft_reports/
 ├── lec/
-│   ├── lec_report.txt
-│   └── compare_logs/
+│   ├── lec_script.tcl
+│   └── lec_report.txt
 └── README.md
+
 
 ---
 # ✅ Conclusion
